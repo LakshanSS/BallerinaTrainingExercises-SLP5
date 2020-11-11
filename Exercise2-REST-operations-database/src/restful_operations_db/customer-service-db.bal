@@ -1,7 +1,7 @@
 import ballerina/http;
 import ballerina/java.jdbc;
 
-jdbc:Client dbClient = check new ("jdbc:mysql://localhost:3306/test1", "root", "root1234");
+jdbc:Client dbClient = check new ("jdbc:mysql://localhost:3306/test1", "root", "root");
 
 @http:ServiceConfig {
     basePath: "/customer"
