@@ -1,0 +1,11 @@
+[project]
+org-name= "lakshans"
+version= "0.2.1"
+authors = ["lakshans"]
+repository = "https://github.com/LakshanSS/ballerina-weatherapi-connector"
+keywords = ["connector", "weatherapi", "weather"]
+
+[build-options]
+observability-included=true
+
+[dependencies]
