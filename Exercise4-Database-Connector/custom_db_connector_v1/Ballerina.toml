@@ -1,0 +1,16 @@
+[project]
+org-name= "lakshans"
+version= "0.1.0"
+authors = ["lakshans"]
+
+[build-options]
+observability-included=true
+
+[dependencies]
+
+[platform]
+target = "java11"
+
+[[platform.libraries]]
+path = "mysql-connector-java-8.0.18.jar"
+modules = ["customer_service_db_connector"]
